@@ -4,21 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02d78f45-92ad-4f13-b51c-fd935bdeac46" name="Changes" comment="Zu Montag haben wir die implimentierung fertig" />
+    <list default="true" id="02d78f45-92ad-4f13-b51c-fd935bdeac46" name="Changes" comment="Inizialisierung funktioniert nicht">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomatNEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomatNEA.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="1334" />
+    <option name="totalTimeSeconds" value="2659" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2clbyjDhRYMkOUYzLg4m3Z4r5as" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,7 +42,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "AnotherBuggyOne",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708689372987</updated>
       <workItem from="1708689374028" duration="1891000" />
+      <workItem from="1708934544514" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="Zu Montag haben wir die implimentierung fertig">
       <option name="closed" value="true" />
@@ -72,8 +85,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zu Montag haben wir die implimentierung fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zu Montag haben wir die implimentierung fertig" />
+    <MESSAGE value="Inizialisierung funktioniert nicht" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inizialisierung funktioniert nicht" />
   </component>
 </project>
