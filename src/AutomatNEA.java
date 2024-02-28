@@ -14,9 +14,8 @@ public class AutomatNEA {
         }
 
         public List<Zustand> gibFolgezustaende1() {
-            List<Zustand> folgezustaende1;
+            List<Zustand> folgezustaende1 = new List<>();
             Q1 q1 = new Q1();
-            folgezustaende1 = new List<>();
             folgezustaende1.append(q1);
             folgezustaende1.toFirst();
             return folgezustaende1;
@@ -36,10 +35,9 @@ public class AutomatNEA {
         }
 
         public List<Zustand> gibFolgezustaende0() {
-            List<Zustand> folgezustaende0;
+            List<Zustand> folgezustaende0 = new List<>();
             Q0 q0 = new Q0();
             Q2 q2 = new Q2();
-            folgezustaende0 = new List<>();
             folgezustaende0.append(q0);
             folgezustaende0.append(q2);
             return folgezustaende0;
@@ -58,10 +56,9 @@ public class AutomatNEA {
         }
 
         public List<Zustand> gibFolgezustaende1() {
-            List<Zustand> folgezustaende1;
+            List<Zustand> folgezustaende1 = new List<>();
             Q0 q0 = new Q0();
             Q3 q3 = new Q3();
-            folgezustaende1 = new List<>();
             folgezustaende1.append(q0);
             folgezustaende1.append(q3);
             return folgezustaende1;
@@ -93,12 +90,10 @@ public class AutomatNEA {
     }
 
     public AutomatNEA() {
-        word = "";
         Q0 q0 = new Q0();
         startzustand = q0;
         aktiveZustaende = new List<>();
         aktiveZustaende.append(startzustand);
-        aktiveZustaende.toFirst();
     }
 
     public void pruefeWort(String pWort) {
