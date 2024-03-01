@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02d78f45-92ad-4f13-b51c-fd935bdeac46" name="Changes" comment="Zu Montag haben wir die implimentierung fertig">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="02d78f45-92ad-4f13-b51c-fd935bdeac46" name="Changes" comment="NEA optimiert und funktionstüchtig, nach grob einer Stunde Bug-Suche (Manch achte auf Folgendes: Zahlen die in einem switch-case mit char verwendet werden, sollte man mit '' versehen, sonst passiert da nichts)">
+      <change afterPath="$PROJECT_DIR$/src/NEA_Aufgabe_2/AutomatNEA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NEA_Aufgabe_2/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NEA_Aufgabe_2/Zustand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomatNEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomatNEA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomatNEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NEA_0_1/AutomatNEA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NEA_0_1/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zustand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NEA_0_1/Zustand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +19,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4535" />
+    <option name="totalTimeSeconds" value="5386" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,32 +37,52 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2clbyjDhRYMkOUYzLg4m3Z4r5as" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="NEA_Aufgabe_2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NEA_Aufgabe_2.AutomatNEA">
     <configuration name="AutomatNEA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutomatNEA" />
+      <option name="MAIN_CLASS_NAME" value="NEA_0_1.AutomatNEA" />
       <module name="NEA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NEA_Aufgabe_2.AutomatNEA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NEA_Aufgabe_2.AutomatNEA" />
+      <module name="NEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NEA_Aufgabe_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NEA_Aufgabe_2.AutomatNEA" />
         <item itemvalue="Application.AutomatNEA" />
       </list>
     </recent_temporary>
@@ -89,7 +121,11 @@
       <option name="presentableId" value="Default" />
       <updated>1708689372987</updated>
       <workItem from="1708689374028" duration="1891000" />
-      <workItem from="1709137788712" duration="4179000" />
+      <workItem from="1709137788712" duration="5223000" />
+      <workItem from="1709153415919" duration="802000" />
+      <workItem from="1709229766652" duration="27000" />
+      <workItem from="1709229826808" duration="2008000" />
+      <workItem from="1709331285290" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="Zu Montag haben wir die implimentierung fertig">
       <option name="closed" value="true" />
@@ -99,7 +135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708691260826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NEA optimiert und funktionstüchtig, nach grob einer Stunde Bug-Suche (Manch achte auf Folgendes: Zahlen die in einem switch-case mit char verwendet werden, sollte man mit '' versehen, sonst passiert da nichts)">
+      <option name="closed" value="true" />
+      <created>1709148827096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709148827096</updated>
+    </task>
+    <task id="LOCAL-00003" summary="NEA optimiert und funktionstüchtig, nach grob einer Stunde Bug-Suche (Manch achte auf Folgendes: Zahlen die in einem switch-case mit char verwendet werden, sollte man mit '' versehen, sonst passiert da nichts)">
+      <option name="closed" value="true" />
+      <created>1709149057598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709149057598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zu Montag haben wir die implimentierung fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zu Montag haben wir die implimentierung fertig" />
+    <MESSAGE value="NEA optimiert und funktionstüchtig, nach grob einer Stunde Bug-Suche (Manch achte auf Folgendes: Zahlen die in einem switch-case mit char verwendet werden, sollte man mit '' versehen, sonst passiert da nichts)" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEA optimiert und funktionstüchtig, nach grob einer Stunde Bug-Suche (Manch achte auf Folgendes: Zahlen die in einem switch-case mit char verwendet werden, sollte man mit '' versehen, sonst passiert da nichts)" />
   </component>
 </project>
